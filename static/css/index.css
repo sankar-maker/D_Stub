@@ -1,0 +1,39 @@
+body{
+  background-image: url('https://p0.pxfuel.com/preview/159/799/726/various-background-backgrounds.jpg');/*
+   background-repeat: no-repeat; */
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+ page[size="A4"] {
+   background: white;
+   width: 22cm;
+   height: 29.7cm;
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 0.5cm;
+   box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+ }
+ @media print {
+   body, page[size="A4"] {
+     margin: 0;
+     box-shadow: 0;
+   }
+}
+.container{
+  margin-top: 5%;
+  /* border-radius: 20%; */
+
+}
+
+.jumbotron{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#submit_btn{
+  margin-bottom: 2%;
+  width: 20%;
+  height: 2%;
+  font-size: 110%;
+  position: relative;
+}
